@@ -1,14 +1,17 @@
-namespace MauiApp5;
-
-public partial class AbsoluteLayoutPage : ContentPage
+namespace MauiApp5
 {
-    public AbsoluteLayoutPage()
+    public partial class AbsoluteLayoutPage : ContentPage
     {
-        InitializeComponent();
-    }
+        public AbsoluteLayoutPage()
+        {
+            InitializeComponent();
+        }
 
-    private async void OnNavigateToGridLayoutPage(object sender, EventArgs e)
-    {
-        await Navigation.PushAsync(new MainPage());
+        // Maneja el clic del botón
+        private async void OnGoToGridLayoutClicked(object sender, EventArgs e)
+        {
+            // Redirige a la página GridLayout
+            await Navigation.PushAsync(new GridLayoutPage());
+        }
     }
 }

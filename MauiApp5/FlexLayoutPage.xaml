@@ -5,17 +5,29 @@
              Title="FlexLayoutPage">
     <FlexLayout Direction="Column">
         <StackLayout Orientation="Horizontal">
-            <Image Source="Resources/Images/image1.jpg" WidthRequest="50" HeightRequest="50" />
+            <Image Source="Resources/Images/image1.jpg" WidthRequest="50" HeightRequest="50">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImageTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
             <Label Text="Texto 1" VerticalOptions="Center" />
         </StackLayout>
         <StackLayout Orientation="Horizontal">
-            <Image Source="Resources/Images/image2.jpg" WidthRequest="50" HeightRequest="50" />
+            <Image Source="Resources/Images/image2.jpg" WidthRequest="50" HeightRequest="50">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImageTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
             <Label Text="Texto 2" VerticalOptions="Center" />
         </StackLayout>
         <StackLayout Orientation="Horizontal">
-            <Image Source="Resources/Images/image3.jpg" WidthRequest="50" HeightRequest="50" />
+            <Image Source="Resources/Images/image3.jpg" WidthRequest="50" HeightRequest="50">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImageTapped"/>
+                </Image.GestureRecognizers>
+            </Image>
             <Label Text="Texto 3" VerticalOptions="Center" />
         </StackLayout>
     </FlexLayout>
-
 </ContentPage>
+

@@ -60,6 +60,9 @@
 		<MauiXaml Update="FlexLayoutPage.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
+		<MauiXaml Update="GridLayoutPage.xaml">
+		  <Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
 		<MauiXaml Update="StackLayoutPage.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>

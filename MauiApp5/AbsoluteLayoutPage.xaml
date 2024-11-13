@@ -4,9 +4,12 @@
              x:Class="MauiApp5.AbsoluteLayoutPage"
              Title="AbsoluteLayoutPage">
     <AbsoluteLayout>
+        <!-- Contenido de la página aquí -->
+
+        <!-- Botón que se mantiene en la esquina inferior derecha -->
         <Button Text="Ir a GridLayout" 
-                AbsoluteLayout.LayoutBounds="1, 1, AutoSize, AutoSize" 
-                AbsoluteLayout.LayoutFlags="PositionProportional" 
-                Clicked="OnNavigateToGridLayoutPage" />
+                Clicked="OnGoToGridLayoutClicked"
+                AbsoluteLayout.LayoutBounds="1, 1, AutoSize, AutoSize"
+                AbsoluteLayout.LayoutFlags="PositionProportional" />
     </AbsoluteLayout>
 </ContentPage>

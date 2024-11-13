@@ -1,14 +1,16 @@
-namespace MauiApp5;
-
-public partial class FlexLayoutPage : ContentPage
+namespace MauiApp5
 {
-    public FlexLayoutPage()
+    public partial class FlexLayoutPage : ContentPage
     {
-        InitializeComponent();
-    }
+        public FlexLayoutPage()
+        {
+            InitializeComponent();
+        }
 
-    private async void OnImageClicked(object sender, EventArgs e)
-    {
-        await Navigation.PushAsync(new AbsoluteLayoutPage());
+        // Maneja el clic en la imagen
+        private async void OnImageTapped(object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new AbsoluteLayoutPage());
+        }
     }
 }
