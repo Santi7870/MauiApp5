@@ -11,7 +11,7 @@ namespace MauiApp5
         private async void OnGoToGridLayoutClicked(object sender, EventArgs e)
         {
             // Redirige a la página GridLayout
-            await Navigation.PushAsync(new GridLayoutPage());
+            await Navigation.PushAsync(new GridLayautPage());
         }
     }
 }

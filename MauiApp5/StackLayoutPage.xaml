@@ -4,9 +4,9 @@
              x:Class="MauiApp5.StackLayoutPage"
              Title="StackLayoutPage">
     <StackLayout>
-        <Label Text="Etiqueta 1" FontSize="Large" />
-        <Label Text="Etiqueta 2" FontSize="Medium" />
-        <Label Text="Etiqueta 3" FontSize="Small" />
+        <Label Text="Santiago Panchi" FontSize="Large" VerticalOptions="Center" />
+        <Label Text="Dayana Vallejos" FontSize="Medium" VerticalOptions="Center" />
+        <Label Text="Vanessa Torres" FontSize="Small" VerticalOptions="Center"/>
         <Button Text="Ir a FlexLayout" Clicked="OnNavigateToFlexLayoutPage" />
     </StackLayout>
 </ContentPage>

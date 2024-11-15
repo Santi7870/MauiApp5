@@ -1,9 +1,18 @@
-namespace MauiApp5;
+﻿using Microsoft.Maui.Controls;
 
-public partial class GridLayoutPage : ContentPage
+namespace MauiApp5
 {
-	public GridLayoutPage()
-	{
-		InitializeComponent();
-	}
+    public partial class GridLayautPage : ContentPage
+    {
+        public GridLayautPage()
+        {
+            InitializeComponent();
+        }
+
+        private async void OnNavigateToStackLayoutPage(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new StackLayoutPage());
+        }
+    }
+
 }

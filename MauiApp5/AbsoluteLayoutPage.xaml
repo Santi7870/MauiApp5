@@ -4,7 +4,40 @@
              x:Class="MauiApp5.AbsoluteLayoutPage"
              Title="AbsoluteLayoutPage">
     <AbsoluteLayout>
-        <!-- Contenido de la página aquí -->
+        <ScrollView>
+
+
+            <StackLayout>
+            <Label Text="Santiago Panchi" FontSize="Large" VerticalOptions="Center" />
+            <Label Text="Dayana Vallejos" FontSize="Medium" VerticalOptions="Center" />
+            <Label Text="Vanessa Torres" FontSize="Small" VerticalOptions="Center"/>
+            <Label Text="Santiago Panchi" FontSize="Large" VerticalOptions="Center" />
+            <Label Text="Dayana Vallejos" FontSize="Medium" VerticalOptions="Center" />
+            <Label Text="Vanessa Torres" FontSize="Small" VerticalOptions="Center"/>
+            <Label Text="Santiago Panchi" FontSize="Large" VerticalOptions="Center" />
+            <Label Text="Dayana Vallejos" FontSize="Medium" VerticalOptions="Center" />
+            <Label Text="Vanessa Torres" FontSize="Small" VerticalOptions="Center"/>
+            <Label Text="Santiago Panchi" FontSize="Large" VerticalOptions="Center" />
+            <Label Text="Dayana Vallejos" FontSize="Medium" VerticalOptions="Center" />
+            <Label Text="Vanessa Torres" FontSize="Small" VerticalOptions="Center"/>
+            <Label Text="Santiago Panchi" FontSize="Large" VerticalOptions="Center" />
+            <Label Text="Dayana Vallejos" FontSize="Medium" VerticalOptions="Center" />
+            <Label Text="Vanessa Torres" FontSize="Small" VerticalOptions="Center"/>
+            <Label Text="Santiago Panchi" FontSize="Large" VerticalOptions="Center" />
+            <Label Text="Dayana Vallejos" FontSize="Medium" VerticalOptions="Center" />
+            <Label Text="Vanessa Torres" FontSize="Small" VerticalOptions="Center"/>
+            <Label Text="Santiago Panchi" FontSize="Large" VerticalOptions="Center" />
+            <Label Text="Dayana Vallejos" FontSize="Medium" VerticalOptions="Center" />
+            <Label Text="Vanessa Torres" FontSize="Small" VerticalOptions="Center"/>
+            
+        </StackLayout>
+
+        </ScrollView>
+
+
+
+
+                <!-- Contenido de la página aquí -->
 
         <!-- Botón que se mantiene en la esquina inferior derecha -->
         <Button Text="Ir a GridLayout" 
